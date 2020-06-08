@@ -6,5 +6,7 @@ This implementation is based on the paper entitled "Recognizing acronyms and the
 This implementation is not identical since we take a 16 word window on both sides of the acronym whose definition is to be extracted.
 
 To run program, in command prompt run:
-  python finder.py filename
+ 
+   python finder.py filename
+
 Where filename may be text.txt, text1.txt, etc.
