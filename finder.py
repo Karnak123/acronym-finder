@@ -1,4 +1,5 @@
 import re
+import sys
 
 
 def buildLCSmatrix(X, Y):
@@ -237,7 +238,8 @@ def findAcronym(words, acronym, stopwords):
 
 
 def main():
-    file = open('text.txt', 'r')
+    filename = str(sys.argv)[1]
+    file = open(filename, 'r')
     text = file.read()
     print(text)
 
